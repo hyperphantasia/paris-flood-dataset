@@ -1,9 +1,9 @@
 # La Seine à Paris, a daily max water levels data collector
 
-**[Fluctuat nec mergitur.](https://en.wikipedia.org/wiki/Fluctuat_nec_mergitur)**
+**Fluctuat nec mergitur.**
 
 ![banner image](img/nivose.gif "A pixel-art concept about an unfinished adventure game set during the Paris centennial flood.")
-<br>Paris est né, comme on sait, dans cette vieille île de la Cité qui a la forme d'un berceau. La grève de cette île fut sa première enceinte, la Seine son premier fossé. *(Victor Hugo, Notre-Dame de Paris, 1831).*
+<br>[Paris est né](https://en.wikipedia.org/wiki/Fluctuat_nec_mergitur), comme on sait, dans cette vieille île de la Cité qui a la forme d'un berceau. La grève de cette île fut sa première enceinte, la Seine son premier fossé. *(Victor Hugo, Notre-Dame de Paris, 1831).*
 
 ## Genesis
 
@@ -184,6 +184,7 @@ MAX_WORKERS = 5
 
 > [!TIP]
 > For I/O-bound (API requests):
+> 
 > optimal MAX_WORKERS ≈ min(4 * cores, floor(R * avg_req_time_sec), memory_limit)
 
 - Hydrometric stations:
